@@ -1,5 +1,57 @@
 /* your styles go here */
 
-.intro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.myName {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 300%;
 }
+
+#intro .myName {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 400%;
+}
+
+/* ----------------------------------------------- */
+
+/* Video trick */
+
+/* ----------------------------------------------- */
+
+.video-container {
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+
+}
+
+.video-container .over-the-video {
+    position: absolute;
+   /* background: rgba(28, 31, 39, 0.7); */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.over-the-video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+/* ----------------------------------------------- */
+
+#services .heading {
+    margin-top: -5%;
+
+}
+
+.about-text {
+    font-size: 130%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+

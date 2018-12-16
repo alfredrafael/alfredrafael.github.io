@@ -54,6 +54,7 @@ section {
   background: #000;
   z-index: 2;
   opacity: 0.6;
+  
 }
 
 .heading {
@@ -84,6 +85,7 @@ section {
 
 .box {
   margin-bottom: 30px;
+  
 }
 
 /*
@@ -104,6 +106,8 @@ nav.navbar {
 
 nav.navbar a.nav-link {
   color: #777;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
   font-style: italic;
   border-bottom: 1px solid transparent;
 }
@@ -114,6 +118,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover, nav.navbar a.nav-link
 
 nav.navbar a.nav-link.active {
   border-bottom: 1px solid #333;
+  margin: 0 1em;
 }
 
 nav.navbar .navbar-brand {
@@ -150,11 +155,22 @@ INTRO SECTION
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
+
 }
 
 .intro h1, .intro h2, .intro h3, .intro p {
   color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  
+  font-family: 'Lato', 'Arial', sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+.intro h1 {
+  font-size: 420%;
+  font-weight: 390;
+  
 }
 
 .intro p {
@@ -198,6 +214,11 @@ SERVICES SECTION
   font-size: 50px;
   color: #262626;
 }
+
+/* .box h4 {
+  text-align: center;
+  margin-left: -2em
+} */
 
 /*
 *
