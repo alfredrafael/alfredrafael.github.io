@@ -215,13 +215,15 @@ SERVICES SECTION
   color: #262626;
 }
 
-/* .box h4 {
-  text-align: center;
-  margin-left: -2em
-} */
+.projects .box {
+  margin-top: 20px;
+}
 
-/*
-*
+.projects .icon {
+  font-size: 50px;
+  color: #262626;
+}
+
 =====================
 MAP SECTION
 =====================
