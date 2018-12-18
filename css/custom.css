@@ -91,9 +91,67 @@
       width: 30%;
     }
   }
-  
-/*
 
+
+
+
+
+
+
+  .proj-pic {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+
+.project-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-div:hover .proj-pic {
+  opacity: 0.3;
+}
+
+.project-div:hover .project-hovered {
+  opacity: 1;
+  display: inline-block;
+
+}
+
+.github-icon {
+	font-size: 500%;
+  display: inline-block;
+  margin-right: 48px;
+}
+
+.computer-icon {
+   font-size: 450%;
+   display: inline-block;
+   margin-left: 48px;
+
+
+}
+
+.computer-icon a {
+color: black;
+}
+
+
+
+
+
+/*
 .projects-section {
   padding: 10rem 0;
   .featured-text {
