@@ -128,9 +128,9 @@ function map() {
 
 const $animation = $('.-computer-languages-animation');
 
-$animation.waypoint(function(){
-    alert('Wepa!');
-})
+// $animation.waypoint(function(){
+//     alert('Wepa!');
+// })
 
 // $('.-computer-languages-animation').waypoint(function (direction) {
 //     $('.-computer-languages-animation').addClass('animated fadeIn');
