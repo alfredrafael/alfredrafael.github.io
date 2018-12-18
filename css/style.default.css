@@ -51,11 +51,11 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background: #000;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.2));
   z-index: 2;
-  opacity: 0.6;
-  
+  /* opacity: 0.6; */
 }
+
 
 .heading {
   margin-bottom: 40px;
