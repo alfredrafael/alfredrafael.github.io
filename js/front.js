@@ -1,5 +1,6 @@
 $(function () {
 
+    
     // ---------------------------------------------- //
     // Navbar
     // ---------------------------------------------- //
@@ -11,7 +12,6 @@ $(function () {
             $('nav').removeClass('sticky');
         }
     });
-
 
     // ---------------------------------------------- //
     // Scroll Spy
@@ -126,14 +126,28 @@ function map() {
     }
 }
 
-const $animation = $('.-computer-languages-animation');
 
-// $animation.waypoint(function(){
+
+
+// $('.technologies-animation').on(click, function(){
+//     alert('hello'); 
+// }); 
+
+// $('.technologies-animation').waypoint(function() {
+//     $('.technologies-animation').addClass('fadeIn')
+//     alert('Hello');
+// }, {
+//     offset: '100%'
+// });
+
+// const $myTechnologies = $('.technologies-animation');
+
+// $myTechnologies.waypoint(function(){
 //     alert('Wepa!');
 // })
 
-// $('.-computer-languages-animation').waypoint(function (direction) {
-//     $('.-computer-languages-animation').addClass('animated fadeIn');
+// $('.technologies-animation').waypoint(function (direction) {
+//     $('.technologies-animation').addClass('animated fadeIn');
 // }, {
 //         offset: '60%'
 //     });
