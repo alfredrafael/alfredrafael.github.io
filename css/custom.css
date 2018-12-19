@@ -53,7 +53,8 @@
     margin-top: -5%;
 }
 
-.about-text {
+.about-text,
+.projects-text {
     font-size: 130%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -62,7 +63,7 @@
 /* -----------------Projects <()<------------------------ */
 
 .projects-section {
-    padding: 10rem 0;
+    padding: 9rem 0;
   }
   
   .projects-section .featured-text {
@@ -91,12 +92,6 @@
       width: 30%;
     }
   }
-
-
-
-
-
-
 
   .proj-pic {
     opacity: 1;
@@ -132,13 +127,13 @@
 .github-icon {
 	font-size: 500%;
   display: inline-block;
-  margin-right: 48px;
+  margin-right: 45px;
 }
 
 .computer-icon {
    font-size: 450%;
    display: inline-block;
-   margin-left: 48px;
+   margin-left: 45px;
 
 
 }
@@ -147,6 +142,18 @@
 color: black;
 }
 
+.github-icon:hover {
+  background: rgba(255, 255, 255, 0.708);
+  transition: .7s ease;
+  border-radius: 10px;
+}
+
+.computer-icon:hover {
+  background: rgba(255, 255, 255, 0.625);
+  transition: .7s ease;
+  border-radius: 10px;
+  content: hello;
+}
 
 
 
