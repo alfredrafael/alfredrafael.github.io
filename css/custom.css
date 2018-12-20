@@ -63,7 +63,7 @@
 /* -----------------Projects <()<------------------------ */
 
 .projects-section {
-    padding: 15rem 0;
+    padding: 10rem 0;
   }
   
   .projects-section .featured-text {
@@ -230,7 +230,8 @@ color: black;
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
 #Iframe-Master-CC-and-Rs {
-  max-width: 900px;
+  /* max-width: 900px; */
+  max-width: 85%;
   max-height: 100%;
   overflow: hidden;
 }
@@ -264,22 +265,24 @@ color: black;
 }
 
 
-/* general styles */
 /* ============== */
 .set-border {
-  border: 5px inset #dee2e6;
+  border: .52px inset #dee2e6;
+  /* border: 5px inset #dee2e6; */
+
 }
 .set-box-shadow {
-  -webkit-box-shadow: 4px 4px 14px #dee2e6;
-  -moz-box-shadow: 4px 4px 14px #dee2e6;
-  box-shadow: 4px 4px 14px #dee2e6;
+  -webkit-box-shadow: 4px 4px 14px #505458;
+  -moz-box-shadow: 4px 4px 14px #666b70;
+  box-shadow: 4px 4px 14px #9c9fa1;
 }
 .set-padding {
-  padding: 40px;
+  padding: 4px;
 }
 .set-margin {
   margin: 30px;
 }
+
 .center-block-horiz {
   margin-left: auto !important;
   margin-right: auto !important;
