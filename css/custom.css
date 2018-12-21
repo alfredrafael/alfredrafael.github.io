@@ -70,23 +70,20 @@
 }
 
 .github-icon {
-  opacity: .3;
+  opacity: .4;
 }
 
 .computer-icon {
-  opacity: .3;
+  opacity: .4;
 }
 
 
 .github-div {
-  /* margin: 20% 0 */
-  float: right;
+  float: left;
 }
 
 .computer-div {
-  float: left;
-  /* margin: -90%;
-  margin-left: 70% */
+  float: right;
 }
 
 
@@ -95,7 +92,7 @@
   display: show;
   opacity: 1;
   background: rgba(94, 154, 228, 0.625);
-  transition: .7s ease;
+  transition: .5s ease;
   border-radius: 10px;
 }
 
@@ -107,7 +104,7 @@
 
 .computer-icon:hover {
   background: rgba(94, 154, 228, 0.625);
-  transition: .7s ease;
+  transition: .5s ease;
   border-radius: 10px;
   content: hello;
   opacity: 1;
@@ -175,6 +172,10 @@
   clip-path: inset(2rem);
 }
 
+.spacing-between-project-rows {
+  margin-bottom: 5.2%;
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
@@ -204,8 +205,7 @@
     clip-path: inset(0px);
   }
 
-
-/* 
+/*  
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
