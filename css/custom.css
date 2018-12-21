@@ -80,6 +80,7 @@
 
 .github-div {
   float: left;
+
 }
 
 .computer-div {
@@ -132,7 +133,8 @@
 }
 
 .portfolio-item .caption .caption-content {
-  margin: 20%;
+  margin: 40% 20%;
+  width: 100%; 
 }
 
 
