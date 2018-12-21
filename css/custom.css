@@ -290,6 +290,28 @@
 
 
 
+/* ----- BUTTON ----- */
+
+
+.resume-button-div {
+  margin: 0 0 0 20%;
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  border: 1px solid rgb(218, 208, 208);
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+  background: rgb(38, 36, 36);
+  color: white;
+}
+
+
+/* ----------------------------------------------- */
+
 /*
 .projects-section {
   padding: 10rem 0;
