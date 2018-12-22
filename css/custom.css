@@ -23,7 +23,6 @@
 .video-container video {
     width: 100%;
     height: auto;
-
 }
 
 .video-container .over-the-video {
@@ -38,9 +37,19 @@
 
 .over-the-video {
     width: 100%;
-    height: auto;
+    height: 100%; /*changed from 'auto' to '100%' */
     position: absolute;
 }
+
+/*1342 a 1099*/
+@media screen and (max-width:1092px) { /*firing at 1200px */
+  #resume {
+    color: red;
+  }
+}
+
+
+
 
 /* ----------------------------------------------- */
 
@@ -48,11 +57,9 @@
   color: rgb(65, 60, 60); margin: 0 1%;
 }
 
-
 #services .heading {
     margin-top: -5%;
 }
-
 
 #services .heading {
     margin-top: -5%;
@@ -65,6 +72,25 @@
 }
 
 
+/* ----- BUTTON ----- */
+
+
+.resume-button-div {
+  margin: 0 0 0 25%;
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  border: 1px solid rgb(218, 208, 208);
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+  transition: 1s ease;
+  background: rgb(38, 36, 36);
+  color: white;
+}
 
 /*///////////////////////////////// PORTFOLIO SECTION ///////////////////////////////*/
 
@@ -91,8 +117,6 @@
 .computer-div {
   float: right;
 }
-
-
 
 .github-icon:hover {
   display: show;
@@ -212,26 +236,8 @@
     clip-path: inset(0px);
   }
 
-/*  
-.portfolio-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
-} */
-
-/* 
-.portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-} */
-
-/* 
-.portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
-} */
 
 /*-------------------Resume--------------------------*/
-
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
 #Iframe-Master-CC-and-Rs {
@@ -294,53 +300,5 @@
 }
 
 
-
-/* ----- BUTTON ----- */
-
-
-.resume-button-div {
-  margin: 0 0 0 25%;
-}
-
-.btn:link, .btn:visited {
-  text-decoration: none;
-  border: 1px solid rgb(218, 208, 208);
-  padding: 10px 30px;
-  border-radius: 15px;
-}
-
-.btn-ghost:hover, .btn-ghost:active {
-  transition: 1s ease;
-  background: rgb(38, 36, 36);
-  color: white;
-}
-
-
 /* ----------------------------------------------- */
 
-/*
-.projects-section {
-  padding: 10rem 0;
-  .featured-text {
-    padding: 2rem;
-    @media (min-width: 992px) {
-      padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
-    }
-  }
-  .project-text {
-    padding: 3rem;
-    font-size: 90%;
-    @media (min-width: 992px) {
-      padding: 5rem;
-      hr {
-        border-color: $primary;
-        border-width: .25rem;
-        width: 30%;
-      }
-    }
-  }
-}
-
-
-*/
