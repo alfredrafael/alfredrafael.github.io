@@ -43,7 +43,7 @@
 
 /*1342 a 1099*/
 @media screen and (max-width:1092px) { /*firing at 1200px */
-  #resume {
+  .myName {
     color: red;
   }
 }
