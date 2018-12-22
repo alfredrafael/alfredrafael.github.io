@@ -33,6 +33,9 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    flex-wrap: wrap;
+
 }
 
 .over-the-video {
@@ -41,15 +44,31 @@
     position: absolute;
 }
 
-/*1342 a 1099*/
-@media screen and (max-width:1092px) { /*firing at 1200px */
-  .myName {
-
-  }
+.full-view{
+  display:inline-block;
 }
 
+.small-view{ /*not shown by default... media queries activates this div*/
+  display:none; 
+}
 
+.intro url {
+  display: none;
+}
 
+@media screen and (max-width: 1345px) {
+   .full-view{
+      display:none;
+   }
+
+   .small-view{
+      display:inline-block; /*div for small-view "activated" */
+   }
+
+   video {
+     display: none;
+   }
+}
 
 /* ----------------------------------------------- */
 
