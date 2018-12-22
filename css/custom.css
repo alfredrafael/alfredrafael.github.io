@@ -48,7 +48,7 @@
   display:inline-block;
 }
 
-.small-view{ /*not shown by default... media queries activates this div*/
+.small-view { /*not shown by default... media queries activates this div*/
   display:none; 
 }
 
@@ -72,6 +72,52 @@
 
 
 /* ----------------------------------------------- */
+/* ---------------------Cellphones widths-------------------------- */
+
+
+.cellphone-banner {
+  display: none;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+  #intro h1 {
+    /* color: red; */
+    font-size: 390%;
+    font-weight: 200;
+  }
+
+  .overlay .italic {
+    display: none;
+  }
+
+  .cellphone-banner {
+      display: inline-block;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+
+  };
+}
+
+
+/* specs for iPhone XS */ /* 2436x1125px at 458ppi */  
+/* @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { 
+#intro h1 {
+color: yellow; 
+}
+} */
+
+/* 2688x1242px at 458ppi */
+/* @media only screen 
+and (device-width : 414px) 
+and (device-height : 896px) 
+and (-webkit-device-pixel-ratio : 3) { 
+  intro h1 {
+    color: green;
+  }
+} */
+/*-------------------------------------------*/
+
 
 .social-icon {
   color: rgb(65, 60, 60); margin: 0 1%;
@@ -320,34 +366,3 @@
 }
 
 
-/* ---------------------Cellphones widths-------------------------- */
-
-/* specs for iPhone XR */ /* 1792x828px at 326ppi */
-@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
-      #intro h1 {
-        color: purple;
-      }
-    }
-
-    @media only screen and (min-width: 414px) and (max-width: 767px) { 
-      #intro h1 {
-        color: red;
-      }
-    }
-
-/* specs for iPhone XS */ /* 2436x1125px at 458ppi */  
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { 
-  #intro h1 {
-    color: yellow; 
-  }
-}
-
-/* 2688x1242px at 458ppi */
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 3) { 
-      intro h1 {
-        color: green;
-      }
-    }
