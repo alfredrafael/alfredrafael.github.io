@@ -86,14 +86,10 @@
     margin-top: 57%;
     font-weight: 200;
     font-family: 'Lato', 'Arial', sans-serif;
-
-   }
-
-  #intro h1 {
     /* default is */
     /* font-size: 420%;
     font-weight: 390; */
-  }
+   }
 
   .overlay .italic {
     display: none;
@@ -108,19 +104,18 @@
     /* height: 50vh; */
     background-image: none;
     background-image: url('img/coffee.jpg')
-
   }
 
   #intro .myName {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 340%;
+    font-size: 400%;
     margin-top: -24%
   }
 
   #intro[style] {
     background-image: none !important;
     /* height: 20vh !important; */
-    background: linear-gradient(black,black, black, white) !important; 
+    background: linear-gradient(black,rgb(45, 43, 43), rgb(60, 58, 58), white) !important; 
   }
 
    #intro .overlay {
