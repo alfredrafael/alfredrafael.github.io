@@ -149,6 +149,15 @@
     margin: 1%;
   }
 
+  .node-icon[style] {
+    font-size: 620% !important;
+  }
+
+
+  .js-icon[style] {
+    font-size: 600% !important;
+  }
+
 }
 
 /*-------------------------------------------*/
