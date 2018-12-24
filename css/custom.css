@@ -150,12 +150,13 @@
   }
 
   .node-icon[style] {
-    font-size: 620% !important;
+    font-size: 630% !important;
+    margin-top: -3%
   }
 
 
   .js-icon[style] {
-    font-size: 600% !important;
+    font-size: 550% !important;
   }
 
 }
