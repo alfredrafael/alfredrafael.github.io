@@ -125,7 +125,7 @@
    }
 
   .overlay {
-    background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2));
+    background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2))) !important;
   }
 
 }
