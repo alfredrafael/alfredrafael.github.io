@@ -84,7 +84,7 @@
   #intro[style] h1 {
     font-size: 350% !important;
     margin-top: 57%;
-    font-weight: 200;
+    font-weight: 100;
     font-family: 'Lato', 'Arial', sans-serif;
     /* default is */
     /* font-size: 420%;
@@ -115,7 +115,7 @@
   #intro[style] {
     background-image: none !important;
     /* height: 20vh !important; */
-    background: linear-gradient(black,rgb(45, 43, 43), rgb(60, 58, 58), white) !important; 
+    background: linear-gradient(black,rgb(45, 43, 43), rgb(89, 84, 84), white) !important; 
   }
 
    #intro .overlay {
