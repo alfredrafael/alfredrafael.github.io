@@ -51,10 +51,10 @@
 .small-view { /*not shown by default... media queries activates this div*/
   display:none; 
 }
-
+/* 
 .intro url {
   display: none;
-}
+} */
 
 @media screen and (max-width: 1345px) {
    .full-view{
@@ -71,7 +71,6 @@
 }
 
 
-/* ----------------------------------------------- */
 /* ---------------------Cellphones widths-------------------------- */
 
 
@@ -90,13 +89,46 @@
     display: none;
   }
 
-  .cellphone-banner {
+  /* .cellphone-banner {
       display: inline-block;
       background-size: cover;
       height: 100%;
       overflow: hidden;
+  }; */
 
-  };
+  .cellphone-video video {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .intro {
+    /* height: 50vh; */
+    background-image: none;
+    background-image: url('img/coffee.jpg')
+
+  }
+
+  #intro .myName {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 340%;
+    margin-top: 34%
+  }
+
+  #intro[style] {
+    background-image: none !important;
+    height: 20vh !important;
+    background: linear-gradient(#bdc3c7, #172029) !important; 
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.2));
+    z-index: 2;
+
 }
 
 
