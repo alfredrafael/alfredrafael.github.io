@@ -144,6 +144,11 @@
       overflow: hidden;
   }; */
 
+  .dev-icon[style] {
+    font-size: 630% !important;
+    margin: 1%;
+  }
+
 }
 
 /*-------------------------------------------*/
