@@ -122,6 +122,21 @@
     background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2))) !important;
   }
 
+  #about .resume-button-div {
+    margin: 0 0 0 16%;
+  }
+
+  .btn:link, .btn:visited {
+    background: rgb(38, 36, 36);
+    color: white;
+  }
+  
+  .picture-div {
+    width: 70%;
+    height: 70%;
+    margin: 3% 10% 0 0;
+  }
+
    /* .cellphone-banner {
       display: inline-block;
       background-size: cover;
