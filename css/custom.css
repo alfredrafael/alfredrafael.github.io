@@ -111,17 +111,17 @@
   #intro .myName {
     font-family: 'Mr De Haviland', cursive;
     font-size: 340%;
-    margin-top: 34%
+    margin-top: 48%
   }
 
   #intro[style] {
     background-image: none !important;
-    height: 20vh !important;
-    background: linear-gradient(#bdc3c7, #172029) !important; 
+    /* height: 20vh !important; */
+    background: linear-gradient(black, white) !important; 
   }
 
   #intro[style] h1 {
-    font-size: 300% !important; 
+    font-size: 350% !important; 
    }
 
   .overlay {
