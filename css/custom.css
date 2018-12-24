@@ -79,22 +79,25 @@
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) { 
-  #intro h1 {
-    /* color: red; */
-    font-size: 390%;
+  
+  
+  #intro[style] h1 {
+    font-size: 350% !important;
+    margin-top: 57%;
     font-weight: 200;
+    font-family: 'Lato', 'Arial', sans-serif;
+
+   }
+
+  #intro h1 {
+    /* default is */
+    /* font-size: 420%;
+    font-weight: 390; */
   }
 
   .overlay .italic {
     display: none;
   }
-
-  /* .cellphone-banner {
-      display: inline-block;
-      background-size: cover;
-      height: 100%;
-      overflow: hidden;
-  }; */
 
   .cellphone-video video {
     display: inline-block;
@@ -117,17 +120,19 @@
   #intro[style] {
     background-image: none !important;
     /* height: 20vh !important; */
-    background: linear-gradient(black,black, white) !important; 
+    background: linear-gradient(black,black, black, white) !important; 
   }
 
-  #intro[style] h1 {
-    font-size: 350% !important;
-    margin-top: 57%;
-   }
-
-  .overlay {
+   #intro .overlay {
     background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2))) !important;
   }
+
+   /* .cellphone-banner {
+      display: inline-block;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+  }; */
 
 }
 
