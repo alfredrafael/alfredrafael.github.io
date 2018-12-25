@@ -78,6 +78,7 @@
   display: none;
 }
 
+
 @media only screen and (min-width: 360px) and (max-width: 767px) { 
   
   
@@ -175,8 +176,11 @@
   #services .my-in-technologies {
     display: none;
   }
-  .caption-content {
   
+  #Iframe-Master-CC-and-Rs {
+    /* max-width: 900px; */
+    max-width: 80%;
+    max-height: 50%;
   }
 
 }
