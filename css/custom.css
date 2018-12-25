@@ -115,7 +115,7 @@
   #intro[style] {
     background-image: none !important;
     /* height: 20vh !important; */
-    background: linear-gradient(black,rgb(45, 43, 43), rgb(89, 84, 84), white) !important; 
+    background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important; 
   }
 
    #intro .overlay {
@@ -163,6 +163,15 @@
     width: 65%;
     margin: 10% 0;
   }
+
+  .github-div {
+    margin-left: -10%;
+  }
+
+  .caption-content {
+  
+  }
+
 }
 
 /*-------------------------------------------*/
