@@ -125,29 +125,3 @@ function map() {
         google.maps.event.addDomListener(window, 'load', initMap);
     }
 }
-
-
-
-
-// $('.technologies-animation').on(click, function(){
-//     alert('hello'); 
-// }); 
-
-// $('.technologies-animation').waypoint(function() {
-//     $('.technologies-animation').addClass('fadeIn')
-//     alert('Hello');
-// }, {
-//     offset: '100%'
-// });
-
-// const $myTechnologies = $('.technologies-animation');
-
-// $myTechnologies.waypoint(function(){
-//     alert('Wepa!');
-// })
-
-// $('.technologies-animation').waypoint(function (direction) {
-//     $('.technologies-animation').addClass('animated fadeIn');
-// }, {
-//         offset: '60%'
-//     });

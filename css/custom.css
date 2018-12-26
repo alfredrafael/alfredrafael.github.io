@@ -432,4 +432,48 @@
   margin-right: auto !important;
 }
 
+/*----------------------digital resume----------------------------------*/
+
+.tab-pane.active {
+  animation: slide-down 2s ease-out;
+}
+
+@keyframes slide-down {
+  0% { opacity: 0; transform: translateY(100%); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+#digital-resume {
+margin-top: -5%;
+}
+
+#digital-resume .nav-item {
+  margin-bottom: -1px;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 190%;
+  font-style: italic;
+  border-bottom: 1px solid transparent;
+}
+
+
+.tab-content {
+  padding: 30px;
+  height: 100%; 
+  border-left: 1px solid #d45500 ; 
+  border-right: 1px solid #d45500;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+  border-color: #d45500;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #d45500;
+}
+
+
+
 
