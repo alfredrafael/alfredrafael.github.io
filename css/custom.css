@@ -301,7 +301,7 @@
 
 
 .projects-section {
-  padding: 10rem 0;
+  /* padding: 5rem 0; */
 }
 
 .projects-section .featured-text {
@@ -465,11 +465,9 @@ margin-top: -5%;
 .tab-content {
   padding: 30px;
   height: 100%; 
-  border-left: 1px solid #d45500 ; 
-  border-right: 1px solid #d45500;
-  border-bottom: 1px solid #d45500;
-
-
+  border-left: 1px solid rgb(230, 227, 227); 
+  border-right: 1px solid rgb(230, 227, 227);
+  border-bottom: 1px solid rgb(230, 227, 227);
 }
 
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
@@ -477,7 +475,13 @@ margin-top: -5%;
   border-bottom-color: transparent;
 }
 .nav-tabs {
-  border-bottom: 1px solid #d45500;
+  border-bottom: 1px solid rgb(230, 227, 227); /*top border or square*/
+}
+
+
+#services {
+  background: linear-gradient(#172029, #bdc3c7);
+  /* background-image: url('img/main.jpg');  NOT WORKING, DONT KNOW WHY*/
 }
 
 
