@@ -435,13 +435,13 @@
 /*----------------------digital resume----------------------------------*/
  
 .tab-pane.active {
-  animation: slide-down 1s ease-out;
+  animation: fadeIn 1s ease-out;
 }
-
-@keyframes slide-down {
+/* 
+@keyframes fadeIn {
   0% { opacity: 0; transform: translateY(100%); }
   100% { opacity: 1; transform: translateY(0); }
-}
+} */
 
 #digital-resume {
 margin-top: -5%;
@@ -471,7 +471,7 @@ margin-top: -5%;
 }
 
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
-  border-color: #d45500;
+  border-color: rgb(230, 227, 227);
   border-bottom-color: transparent;
 }
 .nav-tabs {
@@ -482,6 +482,12 @@ margin-top: -5%;
 #services {
   background: linear-gradient(#172029, #bdc3c7);
   /* background-image: url('img/main.jpg');  NOT WORKING, DONT KNOW WHY*/
+}
+
+.time {
+  float: right;
+  font-weight: 90;
+  color: grey;
 }
 
 
