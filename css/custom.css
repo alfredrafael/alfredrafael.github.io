@@ -449,10 +449,10 @@ margin-top: -5%;
 
 #digital-resume .nav-item {
   margin-bottom: -1px;
-  color: #555;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 190%;
-  font-style: italic;
+  /* font-style: italic; */
   border-bottom: 1px solid transparent;
   
 }
@@ -490,5 +490,14 @@ margin-top: -5%;
   color: grey;
 }
 
+.experience-section {
+  background: lightblue;
+}
 
+.education-section {
+  background: pink;
+}
 
+.skills-section {
+  background: #bdc3c7;
+}
