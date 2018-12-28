@@ -51,7 +51,7 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.2));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.2));
   z-index: 2;
   /* opacity: 0.6; */
 }
@@ -1769,6 +1769,7 @@ code {
 
 .nav-link {
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 .nav-link.disabled {

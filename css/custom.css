@@ -27,15 +27,12 @@
 
 .video-container .over-the-video {
     position: absolute;
-   /* background: rgba(28, 31, 39, 0.7); */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
-
     flex-wrap: wrap;
-
 }
 
 .over-the-video {
@@ -44,7 +41,7 @@
     position: absolute;
 }
 
-.full-view{
+.full-view {
   display:inline-block;
 }
 
@@ -71,17 +68,23 @@
 }
 
 
-/* ---------------------Cellphones widths-------------------------- */
+#services {
+  background: linear-gradient(#172029, #bdc3c7);
+  /* background-image: url('img/main.jpg');  NOT WORKING, DON'T KNOW WHY*/
+}
 
+.cellphone-footer {
+  display: none;
+}
 
 .cellphone-banner {
   display: none;
 }
+/* ---------------------Cellphones widths-------------------------- */
 
 
 @media only screen and (min-width: 360px) and (max-width: 767px) { 
-  
-  
+
   #intro[style] h1 {
     font-size: 350% !important;
     margin-top: 57%;
@@ -164,6 +167,10 @@
     font-size: 550% !important;
   }
 
+  #nav-PDF-tab {
+    display: none;
+  }
+
   .project-div {
     width: 65%;
     margin: 10% 0;
@@ -180,6 +187,14 @@
   iframe {
     width: 100%;
     height: 50%;
+  }
+
+  .regular-footer {
+    display: none;
+  }
+
+  .cellphone-footer {
+    display: inline-block;
   }
 }
 
@@ -297,11 +312,6 @@
 .portfolio-item .caption .caption-content {
   margin: 40% 20%;
   width: 100%; 
-}
-
-
-.projects-section {
-  /* padding: 5rem 0; */
 }
 
 .projects-section .featured-text {
@@ -445,6 +455,8 @@
 
 #digital-resume {
 margin-top: -5%;
+background: linear-gradient(to left, white, rgb(214, 238, 238));
+
 }
 
 #digital-resume .nav-item {
@@ -452,9 +464,7 @@ margin-top: -5%;
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 190%;
-  /* font-style: italic; */
-  border-bottom: 1px solid transparent;
-  
+  border-bottom: 1px solid transparent;  
 }
 
 .nav-tabs {
@@ -465,23 +475,20 @@ margin-top: -5%;
 .tab-content {
   padding: 30px;
   height: 100%; 
-  border-left: 1px solid rgb(230, 227, 227); 
+  border-left: 1px solid rgb(230, 227, 227);
   border-right: 1px solid rgb(230, 227, 227);
   border-bottom: 1px solid rgb(230, 227, 227);
+  background-color: white;
+  /* border: 1px solid red; */
 }
 
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
-  border-color: rgb(230, 227, 227);
   border-bottom-color: transparent;
 }
+
 .nav-tabs {
-  border-bottom: 1px solid rgb(230, 227, 227); /*top border or square*/
-}
-
-
-#services {
-  background: linear-gradient(#172029, #bdc3c7);
-  /* background-image: url('img/main.jpg');  NOT WORKING, DONT KNOW WHY*/
+  border-bottom: 1px solid rgb(230, 227, 227);
+  /* border: 1px solid red; */
 }
 
 .time {
@@ -501,3 +508,4 @@ margin-top: -5%;
 .skills-section {
   background: #bdc3c7;
 }
+
