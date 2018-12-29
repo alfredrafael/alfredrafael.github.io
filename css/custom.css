@@ -472,6 +472,7 @@ background: linear-gradient(to left, white, rgb(214, 238, 238));
   /* border: 1px solid red; */
 }
 
+/*The following pertains to the box UNDER the tabs. Uncomment the red border code to see */
 .tab-content {
   padding: 30px;
   height: 100%; 
@@ -482,15 +483,20 @@ background: linear-gradient(to left, white, rgb(214, 238, 238));
   /* border: 1px solid red; */
 }
 
+/*The following makes sure that the bottom-line of an active-tab should NOT appear*/
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
-  border-bottom-color: transparent;
+  border-bottom-color: transparent; 
 }
 
+/*The following pertains to ALL the tabs, without the content-box underneath them*/
 .nav-tabs {
   border-bottom: 1px solid rgb(230, 227, 227);
   /* border: 1px solid red; */
 }
 
+
+
+/*-----------experience section---------------*/
 .time {
   float: right;
   font-weight: 90;
@@ -498,8 +504,10 @@ background: linear-gradient(to left, white, rgb(214, 238, 238));
 }
 
 .experience-section {
-  background: lightblue;
+  border: 1px solid red;
 }
+
+/*-----------experience section---------------*/
 
 .education-section {
   background: pink;
