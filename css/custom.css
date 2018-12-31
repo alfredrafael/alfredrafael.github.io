@@ -90,15 +90,36 @@
     display: inline-block;
     height: 100%;
   }
-
-  #intro[style] {
-    background-image: none !important;
-    /* height: 20vh !important; */
-    background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
-    background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important;
+  #intro[style] h1 {
+    font-size: 350% !important;
+    margin-top: 57%;
+    font-weight: lighter;
     font-family: 'Lato', 'Arial', sans-serif;
+    /* default follows: */
+    /* font-size: 420%;
+    font-weight: 390; */
+   }
+
+  .overlay .italic {
+    display: none;
   }
 
+
+
+  .picture-div {
+    width: 70%;
+    height: 70%;
+    margin: 3% 10% 0 0;
+  }
+
+  #about .resume-button-div {
+    margin: 0 0 0 18%;
+  }
+
+  .btn:link, .btn:visited {
+    background: rgb(38, 36, 36);
+    color: white;
+  }
 
 }
 
@@ -109,7 +130,7 @@
   #intro[style] h1 {
     font-size: 350% !important;
     margin-top: 57%;
-    font-weight: 100;
+    font-weight: lighter;
     font-family: 'Lato', 'Arial', sans-serif;
     /* default follows: */
     /* font-size: 420%;
