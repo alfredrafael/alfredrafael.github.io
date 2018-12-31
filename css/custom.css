@@ -32,7 +32,8 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .over-the-video {
@@ -69,6 +70,7 @@
 
 
 #services {
+  background: -webkit-gradient(linear, left top, left bottom, from(#172029), to(#bdc3c7));
   background: linear-gradient(#172029, #bdc3c7);
   /* background-image: url('img/main.jpg');  NOT WORKING, DON'T KNOW WHY*/
 }
@@ -89,8 +91,8 @@
     font-size: 350% !important;
     margin-top: 57%;
     font-weight: 100;
-    font-family: 'Montserrat', sans-serif;
-    /* default is */
+    font-family: 'Lato', 'Arial', sans-serif;
+    /* default follows: */
     /* font-size: 420%;
     font-weight: 390; */
    }
@@ -123,10 +125,12 @@
   #intro[style] {
     background-image: none !important;
     /* height: 20vh !important; */
+    background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
     background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important; 
   }
 
    #intro .overlay {
+    background: -webkit-gradient(linear, left top, right top, from(rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2)))) !important;
     background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2))) !important;
   }
 
@@ -284,6 +288,7 @@
 }
 
 .btn-ghost:hover, .btn-ghost:active {
+  -webkit-transition: 1s ease;
   transition: 1s ease;
   background: rgb(38, 36, 36);
   color: white;
@@ -319,6 +324,7 @@
   display: show;
   opacity: 1;
   background: rgba(94, 154, 228, 0.625);
+  -webkit-transition: .5s ease;
   transition: .5s ease;
   border-radius: 10px;
 }
@@ -331,6 +337,7 @@
 
 .computer-icon:hover {
   background: rgba(94, 154, 228, 0.625);
+  -webkit-transition: .5s ease;
   transition: .5s ease;
   border-radius: 10px;
   content: hello;
@@ -476,7 +483,6 @@
 }
 .set-box-shadow {
   -webkit-box-shadow: 4px 4px 14px #505458;
-  -moz-box-shadow: 4px 4px 14px #666b70;
   box-shadow: 4px 4px 14px #9c9fa1;
 }
 .set-padding {
@@ -494,7 +500,8 @@
 /*----------------------digital resume----------------------------------*/
  
 .tab-pane.active {
-  animation: fadeIn 1s ease-out;
+  -webkit-animation: fadeIn 1s ease-out;
+          animation: fadeIn 1s ease-out;
 }
 /* 
 @keyframes fadeIn {
@@ -504,6 +511,7 @@
 
 #digital-resume {
 margin-top: -5%;
+background: -webkit-gradient(linear, right top, left top, from(white), to(rgb(214, 238, 238)));
 background: linear-gradient(to left, white, rgb(214, 238, 238));
 
 }
@@ -620,4 +628,5 @@ margin-bottom: 1%;
 
 .skills-section {
   background-image: url('../img/white-paper.jpg')
+}
 }
