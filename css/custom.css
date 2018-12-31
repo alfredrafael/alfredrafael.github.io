@@ -44,6 +44,7 @@
 
 .full-view {
   display:inline-block;
+  
 }
 
 .small-view { /*not shown by default... media queries activates this div*/
