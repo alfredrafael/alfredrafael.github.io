@@ -102,7 +102,7 @@
     font-size: 350% !important;
     margin-top: 57%;
     font-weight: lighter;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
     background: 
    }
 
@@ -111,7 +111,7 @@
     /* height: 20vh !important; */
     background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
     background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .overlay .italic {
@@ -145,7 +145,7 @@
     font-size: 350% !important;
     margin-top: 57%;
     font-weight: lighter;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
     /* default follows: */
     /* font-size: 420%;
     font-weight: 390; */
@@ -181,13 +181,13 @@
     /* height: 20vh !important; */
     background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
     background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
    #intro .overlay {
     background: -webkit-gradient(linear, left top, right top, from(rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2)))) !important;
     background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2))) !important;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   #about .resume-button-div {
