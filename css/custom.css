@@ -182,7 +182,6 @@
   .github-div {
     margin-left: -10%;
   }
-
   
   iframe {
     width: 100%;
@@ -198,7 +197,7 @@
   #nav-military-tab,
   .resume-logo,
   .regular-footer,
-  #myTab ion-icon,
+  /* #myTab ion-icon, */
   #services .my-in-technologies {
     display: none;
   }
@@ -237,7 +236,7 @@
   color: black;
   border-bottom: .1px solid transparent;
   text-transform: uppercase;
-  font-size: 79.3%;
+  font-size: 85.3%;
   font-weight: bold;
 }
 
