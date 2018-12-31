@@ -84,8 +84,18 @@
 }
 /* ---------------------Cellphones widths-------------------------- */
 
+@media only screen and (min-width: 767px) and (max-width: 991px) {
 
-@media only screen and (min-width: 360px) and (max-width: 767px) { 
+  .cellphone-video video {
+    display: inline-block;
+    height: 100%;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { /* iPhone XR */
 
   #intro[style] h1 {
     font-size: 350% !important;
