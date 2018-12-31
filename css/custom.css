@@ -126,7 +126,8 @@
     background-image: none !important;
     /* height: 20vh !important; */
     background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
-    background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important; 
+    background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important;
+    font-family: 'Lato', 'Arial', sans-serif;
   }
 
    #intro .overlay {
@@ -170,10 +171,6 @@
     font-size: 550% !important;
   }
 
-  #nav-PDF-tab {
-    display: none;
-  }
-
   .project-div {
     width: 65%;
     margin: 10% 0;
@@ -207,28 +204,19 @@
     color: grey;
   }
 
-  .experience-section {
-    background-image: url(../img/vintage-paper.png)
-  }
-
-  .education-section {
+  .experience-section,
+  #nav-experience-tab {
     background-image: url(../img/pink-paper.jpg)
   }
 
-  .projects-section {
-    background-image: url(../img/white-paper.jpg)
+  .education-section,
+  #nav-education-tab {
+    background-image: url(../img/vintage-paper.png)
   }
 
+  .projects-section,
   #nav-projects-tab {
     background-image: url(../img/white-paper.jpg)
-  }
-
-  #nav-experience-tab {
-    background-image: url(../img/vintage-paper.png)
-  }
-
-  #nav-education-tab {
-    background-image: url(../img/pink-paper.jpg)
   }
 
 #digital-resume .nav-item {
@@ -236,7 +224,7 @@
   color: black;
   border-bottom: .1px solid transparent;
   text-transform: uppercase;
-  font-size: 85.3%;
+  font-size: 80.3%;
   font-weight: bold;
 }
 
@@ -339,7 +327,6 @@
   -webkit-transition: .5s ease;
   transition: .5s ease;
   border-radius: 10px;
-  content: hello;
   opacity: 1;
 }
 
