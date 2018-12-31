@@ -512,7 +512,7 @@ background: linear-gradient(to left, white, rgb(214, 238, 238));
 }
 
 .experience-section {
-  background-image: url('../img/white-paper.jpg');
+  background-image: url('../img/vintage-paper.png');
 }
 
 .company {
@@ -540,10 +540,6 @@ margin-bottom: 1%;
 
 /*-----------experience section---------------*/
 
-.education-section {
-  background: pink;
-}
-
 .skills-section {
   background: #bdc3c7;
 }
@@ -553,17 +549,18 @@ margin-bottom: 1%;
 } 
 
 .military-section {
-  background-image: url('../img/vintage-paper.png');
+  background-image: url('../img/white-paper.jpg');
 }
 
 .education-section {
-  background-image: url('../img/pink-paper.jpg')
+  background-image: url('../img/vintage-paper.png')
 }
 
 
 .skills-section {
-  background-image: url('../img/blue-paper.jpg')
+  background-image: url('../img/white-paper.jpg')
 }
 
-
-
+.smooth {
+	scroll-behavior: smooth;
+}
