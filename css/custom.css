@@ -342,16 +342,8 @@
 	font-size: 450%;
   display: inline-block;
   margin-right: -45px;
+  color: white;
 }
-
-.github-icon {
-  color: black;
-}
-
-.computer-icon {
- 
-}
-
 
 .github-div {
   float: left;
@@ -374,6 +366,7 @@
    font-size: 430%;
    display: inline-block;
    margin-left: 45px;
+   color: white;
 }
 
 .computer-icon:hover {
@@ -427,6 +420,7 @@
   margin-right: 5rem;
   margin-bottom: 5rem;
 }
+
 .portfolio-item img {
   -webkit-transition: -webkit-clip-path .2s ease-out;
   -webkit-clip-path: inset(-1px);
@@ -446,6 +440,24 @@
 .spacing-between-project-rows {
   margin-bottom: 5.2%;
 }
+
+
+.proj-pic-description {
+  margin: 0 auto; 
+  padding: 10% 10%; 
+  font-family: 'Lato', sans-serif; 
+  font-size: 110%; 
+  line-height: 150%"
+}
+
+.project-icons {
+  padding: 3% 15%;
+}
+
+
+
+
+
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
