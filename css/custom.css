@@ -227,8 +227,13 @@
   }
 
   .project-div {
-    width: 65%;
-    margin: 10% 0;
+    /* width: 65%; */
+
+    /* margin: 10% 0;
+    position:relative; 
+    width:100%; 
+    height:0; 
+    padding-bottom:30.25%; */
   }
 
   .github-div {
@@ -329,11 +334,12 @@
   border-radius: 15px;
 }
 
-.btn-ghost:hover, .btn-ghost:active {
+.btn-ghost:hover, .btn-ghost:active a {
   -webkit-transition: 1s ease;
   transition: 1s ease;
   background: rgb(38, 36, 36);
   color: white;
+  text-decoration: none !important;
 }
 
 /*///////////////////////////////// PORTFOLIO SECTION ///////////////////////////////*/
@@ -351,19 +357,20 @@
 
 .computer-div {
   float: right;
+  margin-top: -2%;
 }
 
 .github-icon:hover {
   display: show;
   opacity: 1;
-  background: rgb(55, 53, 53);
+  background: black;
   -webkit-transition: .5s ease;
   transition: .5s ease;
   border-radius: 10px;
 }
 
 .computer-icon {
-   font-size: 430%;
+   font-size: 420%;
    display: inline-block;
    margin-left: 45px;
    color: white;
@@ -375,6 +382,7 @@
   transition: .5s ease;
   border-radius: 10px;
   opacity: 1;
+  text-decoration: none;
 }
 
 .portfolio-item {
@@ -432,7 +440,7 @@
 }
 
 .portfolio-item:hover .caption { /*the overall thing*/
-  background-color: rgba(65, 77, 80, 0.9);
+  background-color: rgba(27, 64, 73, 0.9);
   -webkit-clip-path: inset(2rem);
   clip-path: inset(2rem);
 }
@@ -573,7 +581,7 @@ background: linear-gradient(to left, white, rgb(214, 238, 238));
   margin-bottom: -1px;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 185%;
+  font-size: 150%;
   border-bottom: 1px solid transparent;  
 }
 
@@ -596,7 +604,7 @@ background: linear-gradient(to left, white, rgb(214, 238, 238));
 
 /*The following makes sure that the bottom-line of an active-tab should NOT appear*/
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
-  border-bottom-color: transparent; 
+  border-bottom-color: transparent;
 }
 
 /*The following pertains to ALL the tabs, without the content-box underneath them*/
@@ -700,7 +708,7 @@ margin-bottom: 1%;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(29, 106, 154, 0.72);
+  background: rgba(21, 64, 91, 0.72);
   color: #fff;
   visibility: hidden;
   opacity: 0;
@@ -716,4 +724,12 @@ margin-bottom: 1%;
   opacity: 1;
   -webkit-clip-path: inset(1rem);
   clip-path: inset(1rem);
+}
+
+.computer-icon-text {
+  color: white; 
+  margin-left: 40%; 
+  margin-top: -10%; 
+  text-decoration: none !important; 
+  font-weight: bold"
 }
