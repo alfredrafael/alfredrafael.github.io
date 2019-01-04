@@ -75,9 +75,6 @@
 }
 
 
-#about .spacing-about-for-phones {
-  display: none;
-}
 
 
 #services {
@@ -139,7 +136,11 @@
 	.btn:visited {
 		background: rgb(38, 36, 36);
 		color: white;
-	}
+  }
+  
+  #about .spacing-about-for-phones {
+  display: none;
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
@@ -194,7 +195,14 @@
 		width: 70%;
 		height: 70%;
 		margin: 3% 10% 0 0;
-	}
+  }
+
+  #about .spacing-about-for-phones {
+    display: none;
+  }  
+  
+}
+  
 	/* .cellphone-banner {
       display: inline-block;
       background-size: cover;
@@ -444,7 +452,7 @@
 }
 
 #about .spacing-about-for-phones {
-  display: inline;
+  display: none;
 }
 
 .proj-pic-description {
