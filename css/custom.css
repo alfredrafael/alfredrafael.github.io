@@ -546,3 +546,7 @@
 	transform: scale(1.2);
 	z-index: 1;
 }
+
+.spacing-about-for-phones {
+	display: none;
+}
