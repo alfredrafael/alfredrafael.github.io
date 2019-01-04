@@ -573,7 +573,6 @@
 #digital-resume {
 margin-top: -5%;
 background: -webkit-gradient(linear, right top, left top, from(white), to(rgb(214, 238, 238)));
-background: linear-gradient(to left, white, rgb(214, 238, 238));
 
 }
 
@@ -732,4 +731,72 @@ margin-bottom: 1%;
   margin-top: -10%; 
   text-decoration: none !important; 
   font-weight: bold"
+}
+
+
+
+.projects-section a {
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+/* Grow thumbnails to fill columns height */
+.flex-row .thumbnail,
+.flex-row .caption {
+	display: flex;
+	flex: 1 0 auto;
+  flex-direction: column;
+
+  /* margin: .5%; */
+  background: linear-gradient(to top, white, rgb(214, 238, 238),rgb(214, 238, 238), rgb(192, 210, 210), rgb(148, 170, 170));
+}
+
+/* Flex Grow Text Container */
+.flex-row .caption p.flex-text {
+  flex-grow: 1;
+}
+
+/* Flex Responsive Image */
+.flex-row img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* Flexbox Equal Height Bootstrap Columns (fully responsive) */
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+    display: flex;
+	 flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row.row:after, 
+  .flex-row.row:before {
+	 display: flex;
+  }
+  .flex-row.row > [class*='col-'] > .box {
+    display: flex;
+	 flex: 1;
+  }
+}
+
+#myServices h4 {
+  color: white;
+}
+
+h4:hover {
+  animation: fadeIn 1s ease-out;
+}
+
+.thumbnail { transition: all .4s ease-in-out; }
+.thumbnail:hover { 
+  transform: scale(1.2);
+  z-index: 1;
 }
