@@ -1,0 +1,248 @@
+
+/* ---------------------Cellphones widths-------------------------- */
+
+@media only screen and (min-width: 931px) and (max-width: 1000px) {}
+
+@media only screen and (min-width: 767px) and (max-width: 931px) {
+	.cellphone-video video {
+		display: inline-block;
+		height: 100%;
+	}
+	#intro[style] h1 {
+		font-size: 350% !important;
+		margin-top: 57%;
+		font-weight: 100;
+		font-family: 'Lato', sans-serif;
+	}
+	#intro[style] {
+		background-image: none !important;
+		/* height: 20vh !important; */
+		background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
+		background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important;
+		font-family: 'Lato', sans-serif;
+	}
+	.overlay .italic {
+		display: none;
+	}
+	.picture-div {
+		width: 70%;
+		height: 70%;
+		margin: 3% 10% 0 0;
+	}
+	/* 
+  .resume-button-div {
+    margin: 0 auto;
+    background: red;
+  } */
+	.btn:link,
+	.btn:visited {
+		background: rgb(38, 36, 36);
+		color: white;
+  }
+  
+
+	.cellphone-footer {
+		display: inline-block;
+	}
+	#nav-PDF-tab,
+	#nav-military-tab,
+	.resume-logo,
+	.regular-footer,
+	#myTab ion-icon,
+	#nav-experience-tab,
+	#nav-education-tab,
+	#services .my-in-technologies {
+		display: none;
+	}
+	time {
+		font-weight: 100;
+		color: grey;
+	}
+	.experience-section,
+	#nav-experience-tab {
+		background-image: url(../img/pink-paper.jpg)
+	}
+	.education-section,
+	#nav-education-tab {
+		background-image: url(../img/vintage-paper.png)
+	}
+	.projects-section,
+	#nav-projects-tab {
+		/* background-image: url(../img/white-paper.jpg) */
+  }
+	#digital-resume .nav-item {
+		margin-bottom: 1px;
+		color: black;
+		border-bottom: .1px solid transparent;
+		text-transform: uppercase;
+		font-size: 80.3%;
+		font-weight: bold;
+	}
+	#about {
+		margin-top: 25%;
+	}
+	#myServices .thumbnail {
+		padding: 5%;
+		background: white;
+  }
+
+  .projects-only {
+    display: inline-block;
+  }
+
+  .resume-header {
+    display: none
+  }
+  
+  .project-div p {
+    font-size: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+	/* iPhone XR */
+	#intro[style] h1 {
+		font-size: 350% !important;
+		margin-top: 57%;
+		font-weight: 100;
+		font-family: 'Lato', sans-serif;
+		/* default follows: */
+		/* font-size: 420%;
+    font-weight: 390; */
+	}
+	.overlay .italic {
+		display: none;
+	}
+	.cellphone-video video {
+		display: inline-block;
+		height: 100%;
+	}
+	h2 {
+		font-weight: 100;
+	}
+	.intro {
+		/* height: 50vh; */
+		background-image: none;
+		background-image: url('img/coffee.jpg')
+	}
+	#intro .myName {
+		font-family: 'Mr De Haviland', cursive;
+		font-size: 400%;
+		margin-top: -24%
+	}
+	#intro[style] {
+		background-image: none !important;
+		/* height: 20vh !important; */
+		background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(rgb(45, 43, 43)), color-stop(rgb(89, 84, 84)), to(white)) !important;
+		background: linear-gradient(black, black, rgb(45, 43, 43), rgb(89, 84, 84), white) !important;
+		font-family: 'Lato', sans-serif;
+	}
+	#intro .overlay {
+		background: -webkit-gradient(linear, left top, right top, from(rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2)))) !important;
+		background: linear-gradient(to right, rgba( rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.2))) !important;
+		font-family: 'Lato', sans-serif;
+	}
+	#about .resume-button-div {
+		margin: 0 0 0 18%;
+	}
+	.btn:link,
+	.btn:visited {
+		background: rgb(38, 36, 36);
+		color: white;
+	}
+	.picture-div {
+		width: 70%;
+		height: 70%;
+		margin: 3% 10% 0 0;
+	}
+	/* .cellphone-banner {
+      display: inline-block;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+  }; */
+	.dev-icon[style] {
+		font-size: 630% !important;
+		margin: 1%;
+	}
+	.node-icon[style] {
+		font-size: 630% !important;
+		margin-top: -3%
+	}
+	.js-icon[style] {
+		font-size: 550% !important;
+	}
+	.project-div {
+		/* width: 65%; */
+		/* margin: 10% 0;
+    position:relative; 
+    width:100%; 
+    height:0; 
+    padding-bottom:30.25%; */
+	}
+	.github-div {
+		margin-left: -10%;
+	}
+	iframe {
+		width: 100%;
+		height: 50%;
+	}
+	.cellphone-footer {
+		display: inline-block;
+	}
+	#nav-PDF-tab,
+	#nav-military-tab,
+	.resume-logo,
+	.regular-footer,
+	#myTab ion-icon,
+	#nav-experience-tab,
+	#nav-education-tab,
+	#services .my-in-technologies {
+		display: none;
+	}
+	time {
+		font-weight: 100;
+		color: grey;
+	}
+	.experience-section,
+	#nav-experience-tab {
+		background-image: url(../img/pink-paper.jpg)
+	}
+	.education-section,
+	#nav-education-tab {
+		background-image: url(../img/vintage-paper.png)
+	}
+	.projects-section,
+	#nav-projects-tab {
+		/* background-image: url(../img/white-paper.jpg) */
+  }
+	#digital-resume .nav-item {
+		margin-bottom: 1px;
+		color: black;
+		border-bottom: .1px solid transparent;
+		text-transform: uppercase;
+		font-size: 80.3%;
+		font-weight: bold;
+	}
+	#about {
+		margin-top: 25%;
+	}
+	#myServices .thumbnail {
+		padding: 5%;
+		background: white;
+  }
+
+  .projects-only {
+    display: inline-block;
+  }
+
+  .resume-header {
+    display: none
+  }
+  
+  .project-div p {
+    font-size: 80%;
+  }
+
+}
