@@ -133,6 +133,10 @@
   .computer-icon-text {
 	  text-align: center;
   } 
+
+  #services {
+	  padding-left:1%;
+  }
 }
 
 

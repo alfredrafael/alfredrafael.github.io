@@ -75,9 +75,7 @@
 }
 
 #services {
-	/* background: -webkit-gradient(linear, left top, left bottom, from(#172029), to(#bdc3c7)); */
 	background: linear-gradient(rgb(11, 43, 43), rgb(61, 82, 82), rgb(113, 140, 140), white);
-	/* background-image: url('img/main.jpg');  NOT WORKING, DON'T KNOW WHY*/
 }
 
 .cellphone-footer {
@@ -98,10 +96,6 @@
 .social-icon {
 	color: rgb(65, 60, 60);
 	margin: 0 1%;
-}
-
-#services .heading {
-	margin-top: -5%;
 }
 
 #services .heading {
