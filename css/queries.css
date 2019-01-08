@@ -10,7 +10,7 @@
     	height: 100%;
     	margin: 0px;
     	padding: 0px;
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
 	}
 	
 	#about h2 {
@@ -37,11 +37,11 @@
 	h2 {
 		font-weight: 100;
 	}
-	.intro {
-		/* height: 50vh; */
+	/* .intro {
+		/* height: 50vh; *//*
 		background-image: none;
 		background-image: url('img/coffee.jpg')
-	}
+	} */
 	#intro .myName {
 		font-family: 'Mr De Haviland', cursive;
 		font-size: 400%;
@@ -124,7 +124,7 @@
 	#myServices .thumbnail {
 		padding: 5%;
 		background: white;
-  }
+	}
 
   .projects-only {
     display: inline-block;
