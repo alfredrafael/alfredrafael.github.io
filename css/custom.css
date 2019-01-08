@@ -75,6 +75,7 @@
 }
 
 #services {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(11, 43, 43)), color-stop(rgb(61, 82, 82)), color-stop(rgb(113, 140, 140)), to(white));
 	background: linear-gradient(rgb(11, 43, 43), rgb(61, 82, 82), rgb(113, 140, 140), white);
 }
 
@@ -484,10 +485,18 @@
 
 .flex-row .thumbnail,
 .flex-row .caption {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex: 1 0 auto;
-	flex-direction: column;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 auto;
+	        flex: 1 0 auto;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin: 1%;
+	background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(rgb(214, 238, 238)), color-stop(rgb(214, 238, 238)), color-stop(rgb(192, 210, 210)), to(rgb(122, 211, 211)));
 	background: linear-gradient(to top, white, rgb(214, 238, 238), rgb(214, 238, 238), rgb(192, 210, 210), rgb(122, 211, 211));
 }
 
@@ -495,7 +504,9 @@
 /* Flex Grow Text Container */
 
 .flex-row .caption p.flex-text {
-	flex-grow: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
 }
 
 
@@ -511,20 +522,34 @@
 
 @media only screen and (min-width: 481px) {
 	.flex-row.row {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.flex-row.row>[class*='col-'] {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.flex-row.row:after,
 	.flex-row.row:before {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 	}
 	.flex-row.row>[class*='col-']>.box {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex: 1;
+		-webkit-box-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
 	}
 }
 
@@ -533,11 +558,13 @@
 }
 
 .thumbnail {
+	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
 
 .thumbnail:hover {
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
 	z-index: 1;
 }
 
