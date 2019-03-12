@@ -1,6 +1,6 @@
 $(function () {
 
-    
+
     // ---------------------------------------------- //
     // Navbar
     // ---------------------------------------------- //
@@ -123,5 +123,6 @@ function map() {
         }
 
         google.maps.event.addDomListener(window, 'load', initMap);
+        
     }
 }
